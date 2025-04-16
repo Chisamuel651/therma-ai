@@ -16,48 +16,48 @@ const Footer = () => {
                 <ZapIcon className="w-4 h-4 text-primary" />
               </div>
               <span className="text-xl font-bold font-mono">
-                code<span className="text-primary">flex</span>.ai
+                ther<span className="text-primary">ma</span>.ai
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} codeflex.ai - All rights reserved
+              © {new Date().getFullYear()} therma.ai - All rights reserved
             </p>
           </div>
 
           {/* Links */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-x-12 gap-y-2 text-sm">
             <Link
-              href="/about"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               About
             </Link>
             <Link
-              href="/terms"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               Terms
             </Link>
             <Link
-              href="/privacy"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               Privacy
             </Link>
             <Link
-              href="/contact"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               Contact
             </Link>
             <Link
-              href="/blog"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               Blog
             </Link>
             <Link
-              href="/help"
+              href="#"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               Help
